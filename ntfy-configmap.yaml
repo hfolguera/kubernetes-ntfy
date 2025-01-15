@@ -6,7 +6,7 @@ metadata:
 data:
   server.yml: |
     # Template: https://github.com/binwiederhier/ntfy/blob/main/server/server.yml
-    base-url: "https://ntfy.calfolguera.duckdns.org"
+    base-url: "https://ntfy.calfolguera.freemyip.com"
     upstream-base-url: "https://ntfy.sh"
     auth-file: "/var/lib/ntfy/user.db"
     auth-default-access: "deny-all"
