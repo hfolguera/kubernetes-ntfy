@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ntfy
-        image: binwiederhier/ntfy
+        image: binwiederhier/ntfy:latest
         args: ["serve"]
         resources:
           limits:
