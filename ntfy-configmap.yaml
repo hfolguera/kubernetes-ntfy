@@ -10,5 +10,7 @@ data:
     upstream-base-url: "https://ntfy.sh"
     auth-file: "/var/lib/ntfy/user.db"
     auth-default-access: "deny-all"
+    auth-users:
+      - "hfolguera:$2a$12$LqZsxU8.pz55uH03OjcPuu7QdnQVJTJ25DKQQxcm8llDOTpcpUn5a:admin"
     enable-metrics: true
 
